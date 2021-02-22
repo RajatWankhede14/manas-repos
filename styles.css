@@ -1,0 +1,190 @@
+* {
+  font-family: "Montserrat", sans-serif;
+}
+
+/* Header */
+.background {
+  background-image: url("./images/background-cover.jpg");
+  width: 100%;
+  height: 120vh;
+  object-fit: contain;
+  color: white;
+  padding-left: 30px;
+  padding-top: 20px;
+}
+
+.background > h1 {
+  font-style: italic;
+  margin-top: 30px;
+  font-weight: 600;
+  width: 300px;
+  text-align: center;
+}
+
+h2 {
+  font-weight: 600;
+}
+
+h1 > span {
+  border-bottom: 4px solid tomato;
+  font-weight: 800;
+  font-size: 85px;
+}
+
+.intro > h4 {
+  padding-top: 20px;
+}
+
+.intro {
+  padding-top: 32rem;
+  padding-left: 60px;
+}
+
+/* Courses */
+
+.courses {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  margin-left: 10%;
+  list-style-type: none;
+}
+
+.col-md-3 {
+  width: 22%;
+  text-align: center;
+}
+
+.bord {
+  border-right: 3px solid tomato;
+}
+
+.col-md-3 > h3 {
+  padding: 12px;
+  background-color: #000;
+  color: #fff;
+}
+
+/* Testimonials  */
+
+.testimonials {
+  text-align: center;
+  margin-top: 50px;
+  height: 110vh;
+}
+
+.testimonials > h4 {
+  padding: 20px;
+}
+
+.carousel {
+  padding-top: 40px;
+  height: 50vh;
+}
+
+.d-block {
+  object-fit: contain;
+  height: 85vh;
+}
+
+.carousel-caption {
+  padding: 10px;
+  background-color: #fff;
+  color: #000;
+}
+
+/* Banner */
+
+.banner {
+  padding-bottom: 60px;
+}
+
+.banner-img {
+  width: 100%;
+}
+
+/* About */
+
+.about {
+  height: 100vh;
+}
+
+.about > h4 {
+  text-align: center;
+}
+
+.about-img {
+  margin-left: 130px;
+  padding-top: 15px;
+  padding-bottom: 20px;
+  object-fit: contain;
+}
+
+.info {
+  width: 390px;
+  margin-left: 100px;
+  padding: 15px;
+  background-color: #000;
+  color: #fff;
+}
+
+.info > h4 {
+  text-align: center;
+  font-style: italic;
+  border-bottom: 2px solid tomato;
+}
+
+.info > ul > li {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+#info-right {
+  padding-top: 60px;
+  width: 580px;
+  text-align: justify;
+}
+
+/* Students */
+
+.students {
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.students > h4 {
+  padding-bottom: 30px;
+}
+
+.results-img {
+  object-fit: contain;
+}
+
+/* Contact  */
+
+footer {
+  list-style-type: none;
+}
+
+#contact {
+  background-color: #000;
+  color: gray;
+}
+
+#contact > h4 {
+  padding-top: 30px;
+  margin-left: 20px;
+  padding-bottom: 30px;
+}
+
+#contact > .row > .col-md-6 > p {
+  margin-left: 40px;
+  margin-top: 20px;
+}
+
+#contact {
+  text-align: center;
+}
+
+#phone {
+  font-size: 20px;
+}
