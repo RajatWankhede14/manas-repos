@@ -151,6 +151,14 @@ h1 > span {
   color: #000;
 }
 
+.carousel-caption > h5 {
+  font-size: 16px;
+}
+
+.carousel-caption > p {
+  font-size: 12px;
+}
+
 /* Banner */
 
 .banner {
